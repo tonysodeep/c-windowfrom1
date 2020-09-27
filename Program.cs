@@ -15,6 +15,9 @@ namespace c_windowfrom1
             System.Console.WriteLine("Print Array");
             int [] arr = new int[]{1,2,3,4,5};
             arrString = new string[6];
+            if(5>6){
+
+            }
             arrString[0] = "dser";
             System.Console.ReadKey();
         }
@@ -22,6 +25,7 @@ namespace c_windowfrom1
             int b = 6;
             increase(ref b);
             System.Console.WriteLine($"value from swap {b}");
+            
         }
         static void increase(ref int a){
             a++;
