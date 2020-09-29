@@ -24,6 +24,7 @@ namespace c_windowfrom1
         static void swap(){
             int b = 6;
             increase(ref b);
+            Console.WriteLine("xuan add");
             System.Console.WriteLine($"value from swap {b}");
             
         }
